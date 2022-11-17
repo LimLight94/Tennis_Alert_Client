@@ -6,7 +6,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import SettingsIcon from '@mui/icons-material/Settings';
-import TimeSlider from "./TimeSlider";
 import {Dialog, DialogContent, DialogContentText, DialogTitle} from "@mui/material";
 
 const TennisAppBar = () => {
@@ -37,7 +36,7 @@ const TennisAppBar = () => {
             >
                 <DialogTitle>알림 시간 설정</DialogTitle>
                 <DialogContent>
-                    <TimeSlider/>
+                    <DialogContentText>준비중입니다...</DialogContentText>
                 </DialogContent>
             </Dialog>
         </Box>

@@ -15,13 +15,19 @@ const DateBox = ({dateAndTime}) => {
 
     return (
         <ListItem sx={{minWidth: 300}} style={columnContainer}>
-            <Box>
+            <Box sx={{
+                p: 2,
+                borderRadius: 5,
+                textAlign: "center",
+            }}>
                 <Typography variant="h7"
                             sx={{p: 2}}>{dateAndTime.date}</Typography>
                 <Box
                     sx={{
                         display: 'flex',
                         flexWrap: 'wrap',
+                        justifyContent: 'center',
+                        textAlign: 'center',
                         maxWidth: 300,
                         borderRadius: 1,
                     }}
